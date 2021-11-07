@@ -115,4 +115,46 @@ body {
   background: #7296EC;
   color: #ffff;
 }
+/* nav */
+.site-header-nav{
+  margin-top: 30px;
+}
+.header-nav-container{
+  width: 100%;
+ 
+}
+.nav-link{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list:not(:last-child){
+  margin-right: 46px;
+}
+.nav-list-item{
+  text-decoration: none;
+  color: #7F7F7F;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.vector{
+  width: 100%;
+  border: 1px solid #D1D1D1;
+  margin-top: 20px;
+}
+/* aside */
+.header-aside-container{
+  width: 100%;
+  height: 128px;
+  background: url('/images/n24-optimize\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  border-radius: 8px;
+}
 
