@@ -1,24 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap");
 /* Global */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-*:focus{
-    outline: 2px dotted  #7296EC;
-    offset: 2px;
+*:focus {
+  outline: 2px dotted #7296ec;
+  offset: 2px;
 }
 body {
-   margin: 0;
-   padding: 0; 
-  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 /* Container */
-.container{
-    max-width: 1440px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 30px;
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px;
 }
+/* header */
+.site-header-top {
+  padding: 30px 0;
+  background-color: #f6f6f6;
+}
+.header-top-container {
+  display: flex;
+  align-items: center;
+}
+.site-logo {
+  background: #ffff;
+  padding: 8px 6px;
+  border-radius: 7px;
+  display: flex;
+  margin-right: 35px;
+}
+.site-logo-img {
+  width: 264px;
+  height: 28px;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+.curency {
+  margin-right: auto;
+}
+.curency-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.curency-item:not(:last-child) {
+    margin-right: 25px;
+}
+.curency-type {
+  color: #2959ce;
+  font-weight: 700;
+}
+.form{
+    width: 275px;
+    height: 45px;
+    display: flex;
+    background: url('/images/n24-mask.svg');
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding: 15px;
+
+}
+.language-changer{
+    display: flex;
+    margin-right: 25px;
+    padding: 3px;
+    background:  #DCE6FF;
+    border-radius: 39px;
+}
+.language-type{
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    color: #a6a6a6;
+    padding: 8px;
+    text-decoration: none;
+    line-height: 15px;
+}
+.language-changer-active{
+    display: flex;
+    background-color: #ffff;
+    color: #000;
+    border-radius: 50%;
+    padding: 8px;
+}
+.button{
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  padding: 13px 20px;
+  border-radius: 10px;
+}
+.button:hover{
+  opacity: 0.8;
+}
+.button:active{
+  opacity: 0.6;
+}
+.button-cta{
+  background: #7296EC;
+  color: #ffff;
+}
+
