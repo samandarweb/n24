@@ -157,4 +157,48 @@ body {
   margin-top: 40px;
   border-radius: 8px;
 }
-
+/* Main part */
+/* card section */
+.card{
+  margin-top: 50px;
+}
+.section-card-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.card-item{
+  width: 394px;
+ 
+  background: #F6F6F6;
+  border-radius: 15px;
+  padding: 20px 17px 15px 17px;
+  margin-bottom: 30px;
+}
+.card-title{
+  font-size: 20px;
+  font-size: 500;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.card-text{
+  color: #4A4B4C;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.card-img{
+  width: 359px;
+  height: 165px;
+  margin-bottom: 18px;
+}
+.card-footer-text{
+  display: flex;
+  align-items: center;
+}
+.ciard-footer_img{
+  margin-right: 10px;
+}
