@@ -133,7 +133,7 @@ body {
 }
 
 .nav-list:not(:last-child){
-  margin-right: 46px;
+  margin-right: 44px;
 }
 .nav-list-item{
   text-decoration: none;
