@@ -317,8 +317,7 @@ body {
   line-height: 18px;
   margin-top: 7px;
 }
-.grid-items_2 {
-}
+
 .grid-aside {
   background: #f6f6f6;
   margin-bottom: 10px;
@@ -352,3 +351,74 @@ body {
   width: 393px;
   height: 338px;
 }
+/* footer section */
+.site-footer {
+  background: #7297ef;
+  margin-top: 100px;
+}
+
+.site-footer-container {
+  padding: 40px 100px;
+}
+.site-footer-logo {
+  width: 264px;
+  background: #7297ef;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ffff;
+}
+.footer-text {
+  width: 229px;
+  height: 95px;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffff;
+}
+.footer-link {
+  list-style: none;
+}
+.footer-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+.footer-list-item {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer-bottom {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffff;
+}
+.bottom-link {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.bottom-list:not(:last-child) {
+  margin-right: 28px;
+}
+.bottom-list-item {
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+
