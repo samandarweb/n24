@@ -72,6 +72,17 @@ body {
 .currency-icon {
   color:#2959ce;
 }
+/* gloal search */
+.global-search {
+  margin-right: 25px;
+}
+.global-search-input {
+  background: #fff;
+  border-radius: 60px;
+  border:none;
+  padding: 15px 20px 15px 41px;
+  font-size: 14px;
+}
 /* .currency-value {
 } */
 .language-toggle {
@@ -85,7 +96,7 @@ body {
 .language-toggle-link {
  height: 30px;
  width: 30px;
- color:#a6a6a6;
+ color:#a6a6a6; 
  text-decoration: none;
  align-items: center;
  line-height: 30px;
@@ -101,6 +112,13 @@ body {
   padding: 13px 20px;
   text-decoration: none;
   line-height: normal;
+  transition: 0.5s;
+}
+.main-button:hover{
+  opacity: 0.8;
+}
+.main-button:active{
+  opacity: 0.6;
 }
 .button-primary {
   background-color: #7296ec;
