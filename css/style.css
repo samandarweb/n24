@@ -35,6 +35,7 @@ body {
 .site-header-top {
   background: #f6f6f6;
   padding: 30px 0;
+  margin-bottom: 10px;
 }
 .site-header_container {
   display: flex;
@@ -122,4 +123,38 @@ body {
 }
 .button-primary {
   background-color: #7296ec;
+}
+/* Navbar */
+.site-nav {
+  padding: 15px 0;
+}
+.sitenav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 34px;
+}
+.sitenav-item{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sitenav-link {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  color:#7f7f7f;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.sitenav-link:hover{
+  opacity: 0.8;
+  color: #2959ce;
+}
+.sitenav-link:active{
+  opacity: 0.6;
 }
